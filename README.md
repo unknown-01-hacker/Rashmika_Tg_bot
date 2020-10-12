@@ -1,25 +1,25 @@
 ### Mia Khalifa Bot
 
 <p align="center">
-<img src="https://telegra.ph/file/7891c5a8eb0ee937df8cd.jpg" alt="Mia Khalifa bot">
+<img src="https://telegra.ph/Rashmika-mandhana-10-04-3" alt="Rashmika_Tg_bot">
 
-[![Open Source Love](https://img.shields.io/badge/Find-on%20Telegram-blue.svg?logo=telegram)](https://telegram.dog/Mia_Khalifa_TGBot)  
+[![Open Source Love](https://img.shields.io/badge/Find-on%20Telegram-blue.svg?logo=telegram)](https://telegram.dog/Rashmika_Tg_Bot)  
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
 Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
 
 <p align="center">
-  <a href="https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot/fork">
-    <img src="https://img.shields.io/github/forks/Adithyan1133-ctrl/Mia-Khalifa-Bot?label=Fork&style=social">
+  <a href="https://github.com/amanimuhammed/Rashmika_Tg_bot/fork">
+    <img src="https://img.shields.io/github/forks/amanimuhammed/Rashmika_Tg_bot?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot">
-    <img src="https://img.shields.io/github/stars/Adithyan1133-ctrl/Mia-Khalifa-Bot?style=social">
+    <img src="https://img.shields.io/github/stars/amanimuhammed/Rashmika_Tg_bot?style=social">
   </a>
 </p>
 
 ### Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amanimuhammed/Rashmika_Tg_bot.git)
 
 ### Configuration
 
@@ -40,7 +40,7 @@ from miakhalifa.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 557639247  # my telegram ID
-    OWNER_USERNAME = "TheUnusualPsychopath"  # my telegram username
+    OWNER_USERNAME = "Amani_m_h_d"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
