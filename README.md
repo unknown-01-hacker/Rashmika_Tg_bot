@@ -1,4 +1,4 @@
-### Mia Khalifa Bot
+### Rashmika Tg Bot
 
 <p align="center">
 <img src="https://telegra.ph/Rashmika-mandhana-10-04-3" alt="Rashmika_Tg_bot">
