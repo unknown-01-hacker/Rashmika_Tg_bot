@@ -13,7 +13,7 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
     <img src="https://img.shields.io/github/forks/amanimuhammed/Rashmika_Tg_bot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot">
+  <a href="https://github.com/amanimuhammed/Rashmika_Tg_bot">
     <img src="https://img.shields.io/github/stars/amanimuhammed/Rashmika_Tg_bot?style=social">
   </a>
 </p>
