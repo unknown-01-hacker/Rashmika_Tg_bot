@@ -49,7 +49,7 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "557639247"
+         "value": "911289876"
       },
       "OWNER_NAME": {
          "description": "Your Name",
@@ -58,7 +58,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "557639247"
+         "value": "911289876"
       }, 
        "START_IMG": {
          "description": "Image shows when hit /start",
@@ -81,12 +81,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "557639247"
+         "value": "911289876"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "557639247"
+         "value": "911289876"
       },
       "FILTER_LIMIT": { 
          "description": "Maximum Number of Filters That can be Added in Each Group", 
@@ -111,7 +111,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "557639247"
+         "value": "911289876"
       }, 
       "LYDIA_API": {
          "description": "Put here lydia API.",
