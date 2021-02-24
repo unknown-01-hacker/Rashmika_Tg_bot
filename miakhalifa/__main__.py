@@ -28,7 +28,8 @@ from miakhalifa.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
+_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!! ,Made specially for managing this chat group @Pruthvi_RJ_Group _
+
 _Maintained by_ [{}](tg://user?id={})
 """
 
@@ -58,7 +59,7 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/Adithyan1133-ctrl/Mia-Khalifa-Bot)
+⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://)
 ⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/Amanimuhammed/Rashmika_Tg_bot.git)
 """
 
@@ -181,7 +182,7 @@ def send_start(bot, update):
 
     keyboard = [[InlineKeyboardButton(text="⚜️Add to your group ⚜️",url="t.me/{}?startgroup=true".format(bot.username))]]
     keyboard += [[InlineKeyboardButton(text="🤝Help",callback_data="help_back"),InlineKeyboardButton(text="My Owner🇮🇳",url="https://t.me/Raja_Kannada_Admin")]]
-    keyboard += [[InlineKeyboardButton(text="🌐Connect Group", callback_data="main_connect"),InlineKeyboardButton(text="⚜️Add Me⚜️",url="t.me/{}?startgroup=true".format(bot.username))]]
+    keyboard += [[InlineKeyboardButton(text="MY GROUP 🤍",url="https://t.me/Pruthvi_RJ_Group")]]
 
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
@@ -282,8 +283,9 @@ def get_help(bot: Bot, update: Update):
 
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="⚜️Help",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="🛡Contact Creator",url="https://t.me/Amani_m_h_d")]]))
+                                                [[InlineKeyboardButton(text="⚜️Help",url="t.me/{}?start=help".format(bot.username))],
+                                                [[InlineKeyboardButton(text="MY GROUP 🤍",url="https://t.me/Pruthvi_RJ_Group")],  
+                                                [InlineKeyboardButton(text="Contact Owner🇮🇳",url="https://t.me/Raja_Kannada_Admin")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
