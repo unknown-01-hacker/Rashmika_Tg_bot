@@ -59,8 +59,8 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://)
-⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/Amanimuhammed/Rashmika_Tg_bot.git)
+⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://hi.com)
+⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/)
 """
 
 
