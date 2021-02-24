@@ -19,7 +19,7 @@ Modular Telegram bot for managing your groups with a extras features with Hunter
 </p>
 
 ### Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amanimuhammed/Rashmika_Tg_bot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/unknown-01-hacker/Rashmika_Tg_bot.git)
 
 ### Configuration
 
