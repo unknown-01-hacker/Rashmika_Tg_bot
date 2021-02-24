@@ -79,7 +79,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/Rashmika-mandhana-10-04-3"
+    img = "https://telegra.ph/file/25763b30006a7b9fc10f6.jpg"
 else:
   img = START_IMG    
     
@@ -180,7 +180,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="⚜️Add to your group ⚜️",url="t.me/{}?startgroup=true".format(bot.username))]]
+    keyboard = [[InlineKeyboardButton(text="⚜️ Add to your group ⚜️",url="t.me/{}?startgroup=true".format(bot.username))]]
     keyboard += [[InlineKeyboardButton(text="🤝Help",callback_data="help_back"),InlineKeyboardButton(text="My Owner🇮🇳",url="https://t.me/Raja_Kannada_Admin")]]
     keyboard += [[InlineKeyboardButton(text="MY GROUP 🤍",url="https://t.me/Pruthvi_RJ_Group")]]
 
